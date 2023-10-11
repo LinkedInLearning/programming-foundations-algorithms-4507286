@@ -17,8 +17,8 @@ class Node(object):
     def get_next(self):
         return self.next
 
-    def set_next(self, next):
-        self.next = next
+    def set_next(self, nxt):
+        self.next = nxt
 
 
 # the LinkedList class
