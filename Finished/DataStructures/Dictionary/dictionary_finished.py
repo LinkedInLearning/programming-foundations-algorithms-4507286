@@ -1,13 +1,13 @@
 # Example file for Programming Foundations: Algorithms by Joe Marini
-# demonstrate hashtable usage
+# demonstrate dictionary usage
 
 
-# create a hashtable all at once
+# create a dictionary all at once
 items1 = dict({"key1": 1, "key2": 2, "key3": "three"})
 print(items1)
 
 
-# create a hashtable progressively
+# create a dictionary progressively
 items2 = {}
 items2["key1"] = 1
 items2["key2"] = 2
