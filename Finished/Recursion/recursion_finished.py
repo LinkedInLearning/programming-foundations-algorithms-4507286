@@ -20,7 +20,7 @@ def factorial(num):
         return num * factorial(num-1)
 
 
-print("{} to the power of {} is {}".format(5, 3, power(5, 3)))
-print("{} to the power of {} is {}".format(1, 5, power(1, 5)))
-print("{}! is {}".format(4, factorial(4)))
-print("{}! is {}".format(0, factorial(0)))
+print(f"5 to the power of 3 is {power(5, 3)}")
+print(f"2 to the power of 4 is {power(2, 4)}")
+print(f"4! is {factorial(4)}")
+print(f"0! is {factorial(0)}")

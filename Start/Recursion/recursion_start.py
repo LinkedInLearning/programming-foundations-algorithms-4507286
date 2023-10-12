@@ -2,7 +2,7 @@
 # Using recursion to implement power and factorial functions
 
 # 2^4 = 2*2*2*2 = 16
-def power(base, num):
+def power(num, pwr):
     pass
 
 # 5! = 5*4*3*2*1
@@ -11,6 +11,7 @@ def factorial(num):
     pass
 
 
-print("{} to the {} power is {}".format(5, 3, power(5, 3)))
-print("{}! is {}".format(4, factorial(4)))
-print("{}! is {}".format(0, factorial(0)))
+print(f"5 to the power of 3 is {power(5, 3)}")
+print(f"2 to the power of 4 is {power(2, 4)}")
+print(f"4! is {factorial(4)}")
+print(f"0! is {factorial(0)}")
